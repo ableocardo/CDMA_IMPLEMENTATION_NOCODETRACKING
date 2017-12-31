@@ -1,0 +1,25 @@
+<block>
+  <name>Zcz despreading</name>
+  <key>codetracking_despreading_zcz_despreading</key>
+  <category>[CODETRACKING_DESPREADING]</category>
+  <import>import codetracking_despreading</import>
+  <make>codetracking_despreading.zcz_despreading($arg, $user)</make>
+  <param>
+    <name>Arg</name>
+    <key>arg</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>User</name>
+    <key>user</key>
+    <type>float</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

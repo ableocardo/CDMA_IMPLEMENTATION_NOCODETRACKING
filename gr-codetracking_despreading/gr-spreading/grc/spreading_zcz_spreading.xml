@@ -1,0 +1,25 @@
+<block>
+  <name>Zcz spreading</name>
+  <key>spreading_zcz_spreading</key>
+  <category>[SPREADING]</category>
+  <import>import spreading</import>
+  <make>spreading.zcz_spreading($arg, $user)</make>
+  <param>
+    <name>Arg</name>
+    <key>arg</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>User</name>
+    <key>user</key>
+    <type>float</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

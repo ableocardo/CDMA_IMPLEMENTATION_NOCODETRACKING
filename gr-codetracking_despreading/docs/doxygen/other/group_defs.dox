@@ -1,0 +1,7 @@
+/*!
+ * \defgroup block GNU Radio CODETRACKING_DESPREADING C++ Signal Processing Blocks
+ * \brief All C++ blocks that can be used from the CODETRACKING_DESPREADING GNU Radio
+ *        module are listed here or in the subcategories below.
+ *
+ */
+

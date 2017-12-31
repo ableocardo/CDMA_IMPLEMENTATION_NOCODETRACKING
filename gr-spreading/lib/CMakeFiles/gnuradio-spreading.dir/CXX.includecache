@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ableo/gnuradio/tutorials/modules/gr-spreading/lib/zcz_spreading_impl.cc
+config.h
+/home/ableo/gnuradio/tutorials/modules/gr-spreading/lib/config.h
+gnuradio/io_signature.h
+-
+zcz_spreading_impl.h
+/home/ableo/gnuradio/tutorials/modules/gr-spreading/lib/zcz_spreading_impl.h
+
+/home/ableo/gnuradio/tutorials/modules/gr-spreading/lib/zcz_spreading_impl.h
+spreading/zcz_spreading.h
+-
+
+include/spreading/api.h
+gnuradio/attributes.h
+-
+
+include/spreading/zcz_spreading.h
+spreading/api.h
+-
+gnuradio/sync_interpolator.h
+-
+
